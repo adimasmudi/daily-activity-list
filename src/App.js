@@ -34,7 +34,7 @@ function App() {
         </form>
       )}
       <Button onClick={displayInput}>{!show ? "Tambah" : "Tutup"}</Button>
-      <List data={data} />
+      <List setData={setData} data={data} />
     </div>
   );
 }
